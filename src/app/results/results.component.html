@@ -1,1 +1,18 @@
-<p>results works!</p>
+<div *ngIf="result$ | async as result" class="row">
+    <div class="row text-center">
+        Correct Answers : {{result.correct}}
+    </div>
+    <hr> <br>
+    <div class="row text-center">
+        Wrong Answers : {{result.wrong}}
+    </div>
+    <hr> <br>
+    <div class="row text-center">
+        Skipped Questions : {{result.skipped}}
+    </div>
+</div>
+
+<ngx-charts-pie-chart
+[view]="view"
+[results]="pieResult$ | async"
+></ngx-charts-pie-chart>

@@ -1,110 +1,97 @@
 {
   "id": 1,
-  "name": "JavaScript Quiz",
-  "description": "JavaScript Quiz (Basic Multiple Choice Questions for JavaScript Developers)",
+  "name": "Exam Questions",
   "questions": [
     {
       "id": 1010,
-      "name": "Which HTML tag do we use to put the JavaScript?",
+      "name": "Nuclear sizes  are expressed in a unit named?",
       "questionTypeId": 1,
-      "questionTypeName": "Angular",
+      "questionTypeName": "Physics",
       "options": [
         {
           "id": 1055,
           "questionId": 1010,
-          "name": "<javascript>",
+          "name": "Angstrom",
           "isAnswer": false
         },
         {
           "id": 1056,
           "questionId": 1010,
-          "name": "<script>",
+          "name": "Fermi",
           "isAnswer": true
         },
         {
           "id": 1057,
           "questionId": 1010,
-          "name": "<js>",
-          "isAnswer": true
+          "name": "Tesla",
+          "isAnswer": false
         },
         {
           "id": 1058,
           "questionId": 1010,
-          "name": "None of the above",
+          "name": "Newton",
           "isAnswer": false
         }
       ],
       "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
+        "id": 2,
+        "name": "Single Choice",
         "isActive": true
       }
     },
     {
       "id": 1011,
-      "name": "Which built-in method calls a function for each element in the array?",
+      "name": "The Speed of light will be minimum while passing through glass?",
       "questionTypeId": 1,
-      "questionTypeName": "Angular",
+      "questionTypeName": "Physics",
       "options": [
         {
           "id": 1055,
           "questionId": 1010,
-          "name": "while()",
-          "isAnswer": false
+          "name": "True",
+          "isAnswer": true
         },
         {
           "id": 1057,
           "questionId": 1010,
-          "name": "loop",
-          "isAnswer": false
-        },
-        {
-          "id": 1056,
-          "questionId": 1010,
-          "name": "forEach",
-          "isAnswer": true
-        },
-        {
-          "id": 1058,
-          "questionId": 1010,
-          "name": "takeUntil",
+          "name": "False",
           "isAnswer": false
         }
       ],
       "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
+        "id": 2,
+        "name": "Single Choice",
         "isActive": true
       }
     },
     {
       "id": 1012,
-      "name": "What is the difference between let and var?",
+      "name": "Which of the following is a non-metal that remains liquid at room temperature?",
       "questionTypeId": 2,
-      "questionTypeName": "React",
+      "questionTypeName": "Chemistry",
       "options": [
         {
           "id": 1055,
           "questionId": 1010,
-          "name": "let has local scope",
-          "isAnswer": true
+          "name": "Chlorine",
+          "isAnswer": false
         },
         {
           "id": 1057,
           "questionId": 1010,
-          "name": "Both are same",
+          "name": "Phosporus",
           "isAnswer": false
         },
         {
           "id": 1056,
           "questionId": 1010,
-          "name": "var is new data type",
+          "name": "Bromine",
           "isAnswer": true
         },
         {
           "id": 1058,
           "questionId": 1010,
-          "name": "let consumes more cpu and ram",
+          "name": "All of the Above",
           "isAnswer": false
         }
       ],
@@ -116,70 +103,58 @@
     },
     {
       "id": 1013,
-      "name": "What is TypeScript?",
+      "name": "The purest form of iron is Nickel Steel. True / False?",
       "questionTypeId": 2,
-      "questionTypeName": "React",
+      "questionTypeName": "Chemistry",
       "options": [
         {
           "id": 1055,
           "questionId": 1010,
-          "name": "A Language based on Javascript",
-          "isAnswer": true
+          "name": "True",
+          "isAnswer": false
         },
         {
           "id": 1057,
           "questionId": 1010,
-          "name": "script that runs on browser",
-          "isAnswer": false
-        },
-        {
-          "id": 1056,
-          "questionId": 1010,
-          "name": "A DataType Collection of Javascript",
-          "isAnswer": false
-        },
-        {
-          "id": 1058,
-          "questionId": 1010,
-          "name": "None of the above",
-          "isAnswer": false
+          "name": "False",
+          "isAnswer": true
         }
       ],
       "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
+        "id": 2,
+        "name": "Single Choice",
         "isActive": true
       }
     },
     {
       "id": 1014,
-      "name": "Which of the following is right syntex for arrow function?",
+      "name": "Who is known as the Father of Zoology?",
       "questionTypeId": 3,
-      "questionTypeName": "Bootstrap",
+      "questionTypeName": "Biology",
       "options": [
         {
           "id": 1055,
           "questionId": 1010,
-          "name": "a -> { return b; }",
+          "name": "Darwin",
           "isAnswer": false
         },
         {
           "id": 1057,
           "questionId": 1010,
-          "name": "x <= x + y;",
+          "name": "Lamark",
           "isAnswer": false
         },
         {
           "id": 1056,
           "questionId": 1010,
-          "name": "x <- x + 5;",
-          "isAnswer": false
+          "name": "Aristotle",
+          "isAnswer": true
         },
         {
           "id": 1058,
           "questionId": 1010,
-          "name": "x => x + 5;",
-          "isAnswer": true
+          "name": "Theophrastus",
+          "isAnswer": false
         }
       ],
       "questionType": {
@@ -190,69 +165,57 @@
     },
     {
       "id": 1015,
-      "name": "Which new ES6 syntax helps with formatting output text - mixing variables with string literals, for example.",
+      "name": "13 Chambered heart occurs in Cockroach?",
       "questionTypeId": 3,
-      "questionTypeName": "Bootstrap",
+      "questionTypeName": "Biology",
       "options": [
         {
           "id": 1055,
           "questionId": 1010,
-          "name": "Generator Functions",
-          "isAnswer": false
+          "name": "True",
+          "isAnswer": true
         },
         {
           "id": 1057,
           "questionId": 1010,
-          "name": "Arrow Functions",
-          "isAnswer": false
-        },
-        {
-          "id": 1056,
-          "questionId": 1010,
-          "name": "Template Strings",
-          "isAnswer": true
-        },
-        {
-          "id": 1058,
-          "questionId": 1010,
-          "name": "Set Data Structure",
+          "name": "False",
           "isAnswer": false
         }
       ],
       "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
+        "id": 2,
+        "name": "Single Choice",
         "isActive": true
       }
     },
     {
       "id": 1016,
-      "name": "Which ES6 feature helps in merging of a number of changed properties into an existing object?",
+      "name": "Golf Player Vijay Singh belongs to which country?",
       "questionTypeId": 4,
-      "questionTypeName": "HTML",
+      "questionTypeName": "General Knowledge",
       "options": [
         {
           "id": 1055,
           "questionId": 1010,
-          "name": "Class syntex",
+          "name": "India",
           "isAnswer": false
         },
         {
           "id": 1056,
           "questionId": 1010,
-          "name": "Object.assign()",
+          "name": "Fiji",
           "isAnswer": true
         },
         {
           "id": 1057,
           "questionId": 1010,
-          "name": "map data structure",
+          "name": "UK",
           "isAnswer": false
         },
         {
           "id": 1058,
           "questionId": 1010,
-          "name": "Array.includes(obj);",
+          "name": "None of the above",
           "isAnswer": false
         }
       ],
@@ -301,38 +264,26 @@
     },
     {
       "id": 1018,
-      "name": "Which of the following is NOT the method of an Array?",
+      "name": "Fathometer is used to measure Rainfall. True / False?",
       "questionTypeId": 4,
-      "questionTypeName": "HTML",
+      "questionTypeName": "General Knowledge",
       "options": [
         {
           "id": 1055,
           "questionId": 1010,
-          "name": ".map()",
+          "name": "True",
           "isAnswer": false
         },
         {
           "id": 1057,
           "questionId": 1010,
-          "name": ".includes()",
-          "isAnswer": false
-        },
-        {
-          "id": 1056,
-          "questionId": 1010,
-          "name": ".subscribe()",
-          "isAnswer": true
-        },
-        {
-          "id": 1058,
-          "questionId": 1010,
-          "name": ".flatMap()",
+          "name": "False",
           "isAnswer": false
         }
       ],
       "questionType": {
-        "id": 1,
-        "name": "Multiple Choice",
+        "id": 2,
+        "name": "Single Choice",
         "isActive": true
       }
     },
