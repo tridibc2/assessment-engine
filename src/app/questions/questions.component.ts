@@ -24,17 +24,11 @@ export class QuestionsComponent implements OnInit {
   pageDirty = false;
   showResultPage = false;
 
-  pagination = {
-    index: 0,
-    size: 1,
-    count: 1
-  };
 
   constructor(private quizService: QuizService, private router: Router) { }
 
   ngOnInit(): void {
     this.getAll();
-    this.pagination.count = this.questions.length;
   }
 
   private getAll(): void {
@@ -53,7 +47,7 @@ export class QuestionsComponent implements OnInit {
       this.selectedQuestionIndex = index + 1;
     }
     this.currentPageAnswers = this.selectedAnswers
-    .find(q => q.questionId === this.questions[this.selectedQuestionIndex]?.id)?.answerIds;
+      .find(q => q.questionId === this.questions[this.selectedQuestionIndex]?.id)?.answerIds;
     this.currentQuestionSubmittedAnswers = this.currentPageAnswers;
   }
 
@@ -64,7 +58,7 @@ export class QuestionsComponent implements OnInit {
       this.selectedQuestionIndex = index - 1;
     }
     this.currentPageAnswers = this.selectedAnswers
-    .find(q => q.questionId === this.questions[this.selectedQuestionIndex]?.id)?.answerIds;
+      .find(q => q.questionId === this.questions[this.selectedQuestionIndex]?.id)?.answerIds;
     this.currentQuestionSubmittedAnswers = this.currentPageAnswers;
   }
 
@@ -175,9 +169,4 @@ export class QuestionsComponent implements OnInit {
     }
     return arr;
   }
-
-  /*   get pagedQuestions() {
-      return (this.questions) ?
-        this.questions.slice(this.pagination.index, this.pagination.index + this.pagination.size) : [];
-    } */
 }

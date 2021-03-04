@@ -25,14 +25,15 @@
                     </div>
                 </ng-container>
                 <ng-container *ngIf="question.questionType.id == 2">
-                    <div class="col-6" *ngFor="let option of question.options">  
+                    <div class="col-6" *ngFor="let option of question.options">
                         <div class="option">
                             <label class="font-weight-normal" [attr.for]="option.id">
-                                <input name="{{question.name}}" type="radio" (change)="radioChecked(question.id, option.id)"
+                                <input name="{{question.name}}" type="radio"
+                                    (change)="radioChecked(question.id, option.id)"
                                     [checked]="isChecked(option.id)" />{{option.name}}
                             </label>
-                        </div>                
-                      </div> 
+                        </div>
+                    </div>
                 </ng-container>
             </div>
             <div class="row">
@@ -50,6 +51,3 @@
     </div>
 </ng-container>
 <hr />
-
-
-<!--<pagination *ngIf="config.showPager" direction-links="false" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination>-->
